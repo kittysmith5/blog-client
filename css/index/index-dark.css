@@ -1,0 +1,111 @@
+/*
+
+文字颜色   231, 231, 228
+*/
+.dark body{
+    background-color: rgb(22, 23, 29);
+    /* transition: background-color 0.5s, color 0.5s;    */
+}
+.dark .main {
+    background-color: rgb(22, 23, 29);
+    /* transition: background-color 0.5s ease-in-out; */
+}
+
+.dark a {
+    /* text-decoration: none; */
+    color: rgb(217, 218, 211);
+}
+
+
+
+.dark .header {
+    background-color: rgb(40, 42, 51);
+    /* transition: background-color 0.5s ease-in-out; */
+}
+
+.dark .header .container .logo a:hover {
+    color: rgb(175, 100, 255);
+}
+
+.dark .header .container .top-nav ul li:hover,
+.dark .header .container .top-nav ul li:hover a {
+    background-color: rgb(175, 100, 255);
+    color: white;
+}
+
+.dark #title h1 {
+    font-size: 2.7em;
+    /* margin: 0 0; */
+    color: rgb(231, 231, 228);
+}
+
+.dark .main #title {
+    border-bottom: 2px dashed rgb(92, 92, 92);
+}
+
+.dark .main #content ul li:hover,
+.dark .main #content ul li:hover a,
+.dark .main #content ul li:hover span {
+    color: rgb(175, 100, 255);
+    border-color: rgb(175, 100, 255);
+}
+
+
+.dark .main #content ul li:hover::before {
+    background-color: rgb(175, 100, 255);
+}
+
+
+/* 标题前面的小圆点 */
+.dark .main #content ul li::before {
+    background: rgb(92, 92, 92);
+}
+
+
+.dark .main #content ul li {
+    color: rgb(60, 60, 60);
+    border-bottom: 2px dashed rgb(92, 92, 92);
+}
+
+.dark .main #content ul li a {
+    color: rgb(231, 231, 228);
+}
+
+.dark .main #content ul li span {
+    color: rgb(175, 175, 175);
+}
+
+
+.dark .footer {
+    /* overflow: hidden; */
+    background-color: rgb(40, 42, 51);
+    /* transition: background-color 0.5s ease-in-out; */
+}
+
+.dark .footer span {
+    color: rgb(217, 218, 211);
+}
+
+.dark .footer span a {
+    color: rgb(217, 218, 211);
+}
+
+.dark .footer a:hover {
+    color: rgb(175, 100, 255);
+}
+
+
+/* ajax 渲染部分 */
+.dark .main #content .list-year-part h2{
+    color: rgb(231, 231, 228);
+}
+
+
+
+.dark .main .container #content .page500 h1 {
+    color: white;
+}
+
+.dark .main .container #content .page500 h2 {
+    color: white;
+}

@@ -1,0 +1,25 @@
+.dark .main .container #content .page404 h1 {
+    color: white;
+}
+
+.dark .main .container #content .page404 h2 {
+    color: white;
+}
+
+
+.dark .main .container #content{
+    color: rgb(211, 211, 211);
+}
+/* .dark .main .container #content code{
+    color:white
+}
+.dark .main .container #content code .hljs{
+    color: rgb(211, 211, 211);
+} */
+/* .page404 */
+
+
+.dark .main .container #content code {
+    background-color: rgb(31, 32, 40);
+    color: rgb(235, 235, 235)
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>我的博客首页</title>
+    <link rel="stylesheet" href="../css/index/index.css">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="../css/index/index-dark.css">
+    <script src="../js/lib/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    我的博客
+                </a>
+            </div>
+
+            <div class="top-nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">搜索</a></li>
+                    <li><a href="#">工具</a></li>
+                    <li><a href="javascript:;" id="day-or-night">🌞</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div id="title">
+                <h1>Posts</h1>
+            </div>
+            <div id="content">
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="info">
+                <span>© 2023 –</span>
+                <span id="curr-year">2023</span> 
+                <span>KittySmith</span>
+            </div>
+            <br>
+            <div class="powered-by">
+                <span>Powered by <a href="https://github.com/">KittySmith</a> | Theme is <a
+                        href="https://github.com/reuixiy/hugo-theme-meme">MemE</a></span>
+            </div>
+        </div>
+    </div>
+    <script src="../js/index/load.js"></script>
+    <script src="../js/theme.js"></script>
+</html>
